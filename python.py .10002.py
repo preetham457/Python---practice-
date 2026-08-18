@@ -23,7 +23,7 @@ class savingaccount(bankacount):
         
 class currentaccount(bankacount):
     def   withdraw(self, amount):
-            print ("current account withdraw")
+            print ("current account withdraw") 
             super() .withdraw(amount)
 
 s=savingaccount("preetham", 5000)
