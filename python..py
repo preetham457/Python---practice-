@@ -1,19 +1,14 @@
-number=int(input("enter the number:"))
+num=int(input("enter the number:"))
+total=0
+while num>0:
+    digit = num % 10
+    total = total + digit
+    num = num // 10
 
-if number%2==0:
-       print("even")
-else:
-       print("odd")
+print("Sum of digits:", total)
+    
 
-coun=0
-
-for i in range(5):
-    num = int(input("Enter number: "))
-
-    if num % 2 == 0:
-        count = count + 1
-
-print("Even number:", count)
+    
 
 
 
