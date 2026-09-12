@@ -70,3 +70,5 @@ d1 = student("Preetham", "Data Science")
 
 d1.show_name()
 d1.show_course()
+
+
